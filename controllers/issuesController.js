@@ -5,7 +5,7 @@ let issues = [
 
 // دالة جلب المشكلات
 const getAllIssues = (req, res) => {
-  Res.status(200).json({
+res.status(200).json({
     Success: true,
     Data: issues
   });
